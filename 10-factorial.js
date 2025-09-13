@@ -1,13 +1,11 @@
-function factorial(n){
-    if(isNaN(n))return 1;
 
-    const num = parseInt(n);
-    if(num <= 1) return 1;
+const [, , arg] = process.argv;
+const num = Number(arg);
 
-    return num * factorial(num - 1);
-
+function factorial (n) {
+if (!Number.isInteger(n)| n<0) return 1;
+if(n ===0 || n ===1)return 1;
+return n*factorial(n-1);
 }
 
-const input = ProcessingInstruction.argv[2];
-const result = factorial(input);
-console.log(`Factorial of ${input}is: ${result}`);
+console.log(factorial(num));
