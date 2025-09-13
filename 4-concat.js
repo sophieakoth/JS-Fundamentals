@@ -1,3 +1,3 @@
-const firstArg = processargv[2];
-const secondArg = processargv[3];
+const firstArg = one;
+const secondArg = two;
 console.log(`${firstArg} is ${secondArg}`);
