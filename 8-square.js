@@ -1,10 +1,10 @@
-const size = parseInt(process.argv[2]);
-if(isNaN(size)){
+const[, , arg] =process.argv;
+const size = Number(arg);
+
+if(!Number.isInteger(size)) {
     console.log("Missing size");
 }else {
-    let i = 0;
-    while (i<size){
-        console.log("x".repeat(size));
-        i++;
+    for(let i=0;i<size; i++) {
+        console.log("X".repeat(size));
     }
 }
