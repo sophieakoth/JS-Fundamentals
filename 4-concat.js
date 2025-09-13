@@ -1,3 +1,3 @@
-const firstArg = one;
-const secondArg = two;
+const firstArg ="Python";
+const secondArg ="fun";
 console.log(`${firstArg} is ${secondArg}`);
