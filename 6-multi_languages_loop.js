@@ -1,7 +1,7 @@
 
 const languages = [
     "C is fun",
-    "Pyton is cool",
+    "Python is cool",
     "JavaScript is amazing"
 ];
 
