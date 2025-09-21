@@ -1,3 +1,4 @@
-const firstArg ="Python";
-const secondArg ="fun";
-console.log(`${firstArg} is ${secondArg}`);
+
+let myConcat = process.argv.slice(2);
+
+console.log(myConcat[0] + " is " + myConcat[1]);
